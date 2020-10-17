@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts Link -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>BMI Checker</title>
+</head>
+
+<body>
+    <header>
+        <h1>BMI Analyzer</h1>
+        <h2>Assess your lifestyle choices today. </h2>
+    </header>
+
+    <section id="calculator">
+        <div class="container">
+
+            <div class="form-item">
+                <input type="number" name="height" id="height" placeholder="Enter height in centimeter" min="35">
+            </div>
+            <div class="form-item">
+                <input type="number" name="weight" id="weight" placeholder="Enter weight in kilograms" min="10">
+            </div>
+            <div class="form-item">
+                <input type="submit" name="submit" id="submit" value="Calculate">
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="results">
+        <div class="result-container">
+            <div id="bmi-value">
+                <h2></h2>
+            </div>
+            <div id="bmi-category">
+                <h3></h3>
+            </div>
+
+            <div id="suggestion">
+                <p></p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <div id="tips">
+
+        <div class="content">
+            <h1>Simple Wellness Tips</h1>
+            <p>
+                Sometimes it can feel like maintaining a healthy lifestyle is an overwhelming challenge that doesn’t fit within the realities of daily life. But so much of healthy living is really made up of small things we do daily—things that are so small they don’t
+                feel momentous, but that, done consistently over time, add up to produce big results. Here are few tips to lead a healthy life.
+                <ul>
+                    <li>
+                        Take the stairs.
+                    </li>
+                    <li>Drink a glass of water first thing in the morning.</li>
+                    <li>Get sunlight every day.</li>
+                    <li>Get enough sleep (anywhere between 7-9 hours)</li>
+                    <li>Don't be a couch potato. Move around in breaks.</li>
+                </ul>
+            </p>
+        </div>
+        <div class="image">
+            <img src="./images/workout.svg" alt="healthy-lifestyle">
+        </div>
+    </div>
+</body>
+
+</html>

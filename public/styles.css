@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
+    height: 150px;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url("./images/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: #fff;
+}
+
+header h1 {
+    padding: 17px;
+    font-size: 50px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+@media (min-width:980px) {
+    header h1 {
+        font-size: 100px;
+    }
+}
+
+.container {
+    padding: 50px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #d2f5e3;
+    height: 300px;
+    max-width: 300px;
+    max-height: 500px;
+    border-radius: 30px;
+    margin: 70px auto;
+}
+
+.form-item {
+    padding: 10px 5px;
+    margin: 10px auto;
+}
+
+input {
+    padding: 17px 15px;
+    border-radius: 25px;
+    border: none;
+    font-size: 1rem;
+    outline: none;
+}
+
+#submit {
+    margin: 0 auto;
+    padding: 18px 18px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 800;
+    background-color: #ea907a;
+    border-radius: 25px;
+    border: none;
+    font-size: 1rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: #EEB99C;
+}
+
+.result-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #d2f5e3;
+    height: 200px;
+    padding: 40px 20px;
+    border-radius: 30px;
+    text-align: center;
+    color: #52575d;
+}
+
+.result-container p {
+    line-height: 1.7;
+    text-align: justify;
+    font-size: 1.2rem;
+}
+
+#tips {
+    width: 100%;
+    max-height: 1200px;
+    background-color: #d2f5e3;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.content {
+    padding: 100px 30px;
+    color: #52575d;
+    flex-basis: 500px;
+    max-height: 800px;
+    flex: 2;
+    line-height: 1.7;
+    text-align: justify;
+    font-size: 1.3rem;
+}
+
+.content h1 {
+    margin-bottom: 30px;
+}
+
+.image {
+    flex-basis: 500px;
+    flex: 1;
+    padding: 80px 0px;
+}
+
+.image img {
+    max-width: 500px;
+    max-height: 440px;
+    width: auto;
+    height: auto;
+}
