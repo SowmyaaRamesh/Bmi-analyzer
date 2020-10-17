@@ -110,8 +110,20 @@ input {
     max-height: 800px;
     flex: 2;
     line-height: 1.7;
-    text-align: justify;
     font-size: 1.3rem;
+}
+
+.content p {
+    text-align: justify;
+}
+
+@media (max-width:970px) {
+    .content h1 {
+        font-size: 26px;
+    }
+    .content {
+        font-size: 1.2rem;
+    }
 }
 
 .content h1 {
